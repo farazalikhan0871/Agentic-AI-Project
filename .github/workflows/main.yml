@@ -21,6 +21,8 @@ jobs:
       - name: Push to hub
         env:
           HF1TOKEN: ${{ secrets.HF1TOKEN }}
-        run: git push --force https://farazali9480:$HF1TOKEN@huggingface.co/spaces/farazali9480/agenticai main
+        run: git push --force https://farazali9480:$HF1TOKEN@huggingface.co/spaces/farazali9480/agentic-ai main
        
          
+
+      
